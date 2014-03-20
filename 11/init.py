@@ -46,13 +46,7 @@ def genDright(grid, returnsize):
             if len(resultL) == returnsize:
                 yield resultL
 
-# [ 01, 02, 03, 04, 05, 06, 07, 08, 09, 10 ]
-# [ 01, 02, 03, 04, 05, 06, 07, 08, 09, 10 ]
-# [ 01, 02, 03, 04, 05, 06, 07, 08, 09, 10 ]
-# [ 01, 02, 03, 04, 05, 06, 07, 08, 09, 10 ]
-# [ 01, 02, 03, 04, 05, 06, 07, 08, 09, 10 ]
-# [ 01, 02, 03, 04, 05, 06, 07, 08, 09, 10 ]
-# [ 01, 02, 03, 04, 05, 06, 07, 08, 09, 10 ]
+print "Project Euler problem 11: Of these four products, which is the largest?"
 
 fh = open('input', 'r')
 input = fh.readlines()
